@@ -77,4 +77,14 @@
         android:name="com.example.eduthon_aimers.Cyber.CyberFragment"
         android:label="fragment_cyber"
         tools:layout="@layout/fragment_cyber" />
+    <fragment
+        android:id="@+id/complaintFragment"
+        android:name="com.example.eduthon_aimers.Cyber.ComplaintFragment"
+        android:label="fragment_complaint"
+        tools:layout="@layout/fragment_complaint" />
+    <fragment
+        android:id="@+id/solutionFragment"
+        android:name="com.example.eduthon_aimers.Cyber.SolutionFragment"
+        android:label="fragment_solution"
+        tools:layout="@layout/fragment_solution" />
 </navigation>
