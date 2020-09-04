@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:gravity="start"
-                android:text="@string/a_complete_guide_to_microsoft_team"
+                android:text="A complete Guide To Microsoft Team"
                 android:textColor="#64B5F6"
                 android:textSize="16sp" />
 
