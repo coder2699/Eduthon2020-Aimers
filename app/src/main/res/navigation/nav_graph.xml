@@ -20,5 +20,32 @@
         android:id="@+id/homeFragment"
         android:name="com.example.eduthon_aimers.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_faqsFragment"
+            app:destination="@id/faqsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.eduthon_aimers.Articles.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/faqsFragment"
+        android:name="com.example.eduthon_aimers.Faq.FaqsFragment"
+        android:label="fragment_faqs"
+        tools:layout="@layout/fragment_faqs" />
 </navigation>
