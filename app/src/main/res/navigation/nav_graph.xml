@@ -37,6 +37,12 @@
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_referenceFragment"
+            app:destination="@id/referenceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_healthFragment"
+            app:destination="@id/healthFragment" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
@@ -48,4 +54,14 @@
         android:name="com.example.eduthon_aimers.Faq.FaqsFragment"
         android:label="fragment_faqs"
         tools:layout="@layout/fragment_faqs" />
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.eduthon_aimers.HealthFragment"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/referenceFragment"
+        android:name="com.example.eduthon_aimers.ReferenceFragment"
+        android:label="fragment_reference"
+        tools:layout="@layout/fragment_reference" />
 </navigation>

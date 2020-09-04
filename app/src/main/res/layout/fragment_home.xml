@@ -7,14 +7,24 @@
     tools:context=".HomeFragment">
 
     <Button
-    android:id="@+id/buttonFAQ"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="FaqFrag"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/buttonHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="43dp"
+        android:text="HealthFrag"
+        app:layout_constraintBottom_toTopOf="@+id/buttonArticle"
+        app:layout_constraintStart_toStartOf="@+id/buttonArticle" />
+
+    <Button
+        android:id="@+id/buttonFAQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FaqFrag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonArticle"
@@ -27,4 +37,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.371" />
+
+    <Button
+        android:id="@+id/buttonRef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="42dp"
+        android:text="Reference"
+        app:layout_constraintStart_toStartOf="@+id/buttonFAQ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFAQ" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,6 +19,15 @@ class HomeFragment : Fragment() {
         view.buttonFAQ.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_faqsFragment)
         }
+        view.buttonHealth.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_healthFragment)
+        }
+        view.buttonRef.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_referenceFragment)
+        }
+        view.buttonArticle.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_articleFragment)
+        }
 
         return view
     }
