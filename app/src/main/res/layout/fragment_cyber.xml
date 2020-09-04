@@ -84,6 +84,62 @@
                 android:textColor="#F8F8FF"
                 android:textSize="16sp" />
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="Bullying by students, argumentative parents who often peep into classes, and distracted children — these are just some of the challenges teachers face during online classes, which have become the primary mode of instruction as schools remain shut down on account of the Covid-19 pandemic."
+                android:textColor="#F8F8FF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="While teachers in private schools primarily complain about online bullying by students during video calls, their government counterparts claim the biggest challenge is reaching students who belong to the economically weaker section."
+                android:textColor="#F8F8FF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="Students create Zoom IDs in random, unidentifiable names and troll teachers. Some switch off their camera and call teachers names from these IDs, some use them to send memes to teachers"
+                android:textColor="#f10d37"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="Privacy- and propriety-related issues constitute a major concern among tutors."
+                android:textColor="#F8F8FF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="However, with no word yet on when schools can reopen, teachers say they are trying their best to get past the hurdles, which often means just ignoring rowdy behaviour."
+                android:textColor="#F8F8FF"
+                android:textSize="16sp" />
+
         </LinearLayout>
     </ScrollView>
 
