@@ -28,6 +28,9 @@ class HomeFragment : Fragment() {
         view.buttonArticle.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_articleFragment)
         }
+        view.buttonCyber.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_cyberFragment)
+        }
 
         return view
     }

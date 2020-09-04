@@ -47,4 +47,14 @@
         android:text="Reference"
         app:layout_constraintStart_toStartOf="@+id/buttonFAQ"
         app:layout_constraintTop_toBottomOf="@+id/buttonFAQ" />
+
+    <Button
+        android:id="@+id/buttonCyber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="120dp"
+        android:text="Cyber"
+        app:layout_constraintStart_toStartOf="@+id/buttonFAQ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFAQ" />
 </androidx.constraintlayout.widget.ConstraintLayout>

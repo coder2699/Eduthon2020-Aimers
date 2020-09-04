@@ -43,6 +43,14 @@
         <action
             android:id="@+id/action_homeFragment_to_healthFragment"
             app:destination="@id/healthFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cyberFragment"
+            app:destination="@id/cyberFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
@@ -64,4 +72,9 @@
         android:name="com.example.eduthon_aimers.ReferenceFragment"
         android:label="fragment_reference"
         tools:layout="@layout/fragment_reference" />
+    <fragment
+        android:id="@+id/cyberFragment"
+        android:name="com.example.eduthon_aimers.Cyber.CyberFragment"
+        android:label="fragment_cyber"
+        tools:layout="@layout/fragment_cyber" />
 </navigation>
