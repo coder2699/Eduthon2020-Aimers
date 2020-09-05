@@ -24,4 +24,19 @@
     \n2) Excessively bright light either from harsh interior lighting or sunlight coming in through a window can cause eye strain
     \n3) Position the computer monitor or screen so windows are to the side instead of in front or behind it
     </string>
+    <string name="d1">Drink at least one glass of water before each lecture</string>
+    <string name="d2">Set reminders</string>
+    <string name="d3">Keep a reusable water bottle with you</string>
+    <string name="d4">Replace other drinks with water</string>
+
+    <string name="dd1">A simple way to increase your water intake is to make a habit of drinking at least one glass of water before each lecture</string>
+    <string name="dd2">You can also set reminders to drink more water.
+        These reminders can help you increase your water intake specially if you struggle with being forgetful or too busy to drink.
+    </string>
+    <string name="dd3">Keeping a water bottle with you throughout the day can help you drink more water.
+    Keeping a water bottle handy can also serve as a visual reminder to drink more water. If you see the bottle on your desk or table
+        you will constantly be reminded to drink more.</string>
+    <string name="dd4">One way to drink more water and boost your health and reduce your calorie intake
+    is to replace other drinks such as soda and sports drinks with water.
+        \nThese drinks are often full of added sugars which can be extremely detrimental to your health.</string>
 </resources>
