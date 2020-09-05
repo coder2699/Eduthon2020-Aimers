@@ -54,6 +54,14 @@
         <action
             android:id="@+id/action_homeFragment_to_donateFragment"
             app:destination="@id/donateFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_videoActivity"
+            app:destination="@id/videoActivity"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
@@ -219,4 +227,8 @@
         android:id="@+id/donateFragment"
         android:name="com.example.eduthon_aimers.Donation.DonateFragment"
         android:label="DonateFragment" />
+    <activity
+        android:id="@+id/videoActivity"
+        android:name="com.example.eduthon_aimers.Video.VideoActivity"
+        android:label="VideoActivity" />
 </navigation>

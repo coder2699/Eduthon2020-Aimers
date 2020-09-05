@@ -57,4 +57,14 @@
         android:text="Cyber"
         app:layout_constraintStart_toStartOf="@+id/buttonFAQ"
         app:layout_constraintTop_toBottomOf="@+id/buttonFAQ" />
+
+    <Button
+        android:id="@+id/buttonVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="220dp"
+        android:text="Video"
+        app:layout_constraintStart_toStartOf="@+id/buttonFAQ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFAQ" />
 </androidx.constraintlayout.widget.ConstraintLayout>
