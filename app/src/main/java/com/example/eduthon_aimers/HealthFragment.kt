@@ -34,7 +34,7 @@ class HealthFragment : Fragment() {
             findNavController().navigate(R.id.action_healthFragment_to_waterFragment)
         }
         view.yogaView.setOnClickListener {
-            findNavController().navigate(R.id.action_homeFragment_to_yogaFragment)
+            findNavController().navigate(R.id.action_healthFragment_to_yogaFragment)
 
         }
 
