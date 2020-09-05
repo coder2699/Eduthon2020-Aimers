@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">Eduthon-Aimers</string>
+    <string name="h4">Blink</string>
+    <string name="h3">Exercise Your Eyes</string>
+    <string name="h1">Comfortable Lighting</string>
+    <string name="h2">Reduce glare</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="glare">1)Reflections on your computer screen as well as glare on walls and reflective surfaces cause CVS
+\n2) Install an anti-glare screen on your monitor
+\n3) Paint bright white walls a darker colour with a matte finish
+\n4) Cover the windows
+    </string>
+    <string name="blink">1) Blinking moistens eyes &amp; prevents dryness and irritation
+    \n2) People blink less frequently while working at a computer
+    </string>
+    <string name="exc">1).Every 20 minutes, blink 10 times by closing your eyes as if falling asleep - very slowly.
+        This will help rewet your eyes.
+\n2).Look far away at an object for 10-15 seconds, then stare at something up close for 10-15 seconds.
+        Then look back at the distant object. Do this 10 times. This exercise decreases the risk of your eyes
+        focusing ability to lock up (accommodative spasm) after lengthy computer work
+    </string>
+    <string name="light">1) Reduce outdoor light by closing drapes or blinds
+    \n2) Excessively bright light either from harsh interior lighting or sunlight coming in through a window can cause eye strain
+    \n3) Position the computer monitor or screen so windows are to the side instead of in front or behind it
+    </string>
 </resources>

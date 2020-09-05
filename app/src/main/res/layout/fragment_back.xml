@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232355"
+    tools:ignore="MissingDefaultResource"
+    android:id="@+id/backFrag"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Health.BackFragment">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="642dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Back Strain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#c6a5a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="368dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="455dp"
+        android:src="@drawable/sit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="139dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="322dp"
+                android:layout_height="100dp"
+                android:text="Don't use your laptop on your lap. Simply doing this will reduce the chances of you developing aches and pains significantly."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:text="Use a Laptop Raiser .This will help to reduce the strain on your neck from looking down too much."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="320dp"
+                android:layout_height="148dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start|right"
+                android:text="Sit with good posture - feet firm on the floor, elbows slightly above the desk surface, back supported by back rest, lumbar support of the chair positioned in your lower back and bottom right back against the back of the chair."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#c6a5a3" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
