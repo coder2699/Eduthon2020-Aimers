@@ -17,14 +17,11 @@
         android:id="@+id/navigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="690dp"
         android:background="#232355"
         app:itemIconTint="#c6a5a3"
         app:itemTextColor="#c6a5a3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
         app:menu="@menu/bottom_sheet_menu" />
 
     <TextView
@@ -32,11 +29,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="220dp"
-        android:layout_marginLeft="220dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="220dp"
-        android:layout_marginRight="220dp"
-        android:layout_marginBottom="642dp"
+        android:layout_marginBottom="600dp"
         android:fontFamily="@font/montserrat"
         android:text="Ikshana"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -47,9 +42,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

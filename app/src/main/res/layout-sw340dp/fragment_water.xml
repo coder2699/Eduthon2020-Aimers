@@ -12,8 +12,7 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="640dp"
+        android:layout_marginBottom="520dp"
         android:fontFamily="@font/montserrat"
         android:text="Drink Water"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -25,8 +24,8 @@
 
     <ScrollView
         android:layout_width="0dp"
-        android:layout_height="550dp"
-        android:layout_marginTop="55dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

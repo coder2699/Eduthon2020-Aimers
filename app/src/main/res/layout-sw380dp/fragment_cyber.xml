@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0a0a2b"
-    tools:context=".Cyber.CyberFragment">
+    tools:context=".Cyber.CyberFragment"
+    tools:ignore="MissingDefaultResource">
 
     <TextView
         android:id="@+id/btnReport"
@@ -22,7 +23,7 @@
         android:text="How to Complaint ?"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#f10d37"
-        android:textSize="14sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,7 @@
         android:layout_marginBottom="575dp"
         android:fontFamily="@font/montserrat"
         android:text="Cyber Bullying"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#f10d37"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,7 +174,7 @@
         android:text="Prevention Measures"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#f10d37"
-        android:textSize="14sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
