@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#232355"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/healthContainer"
-    tools:ignore="MissingDefaultResource"
-    tools:context=".HealthFragment">
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#232355"
+    tools:context=".HealthFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:background="#232355"
+        app:itemIconTint="#c6a5a3"
+        app:itemTextColor="#c6a5a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_sheet_menu" />
 
     <TextView
         android:id="@+id/textView22"
@@ -18,8 +33,8 @@
         android:layout_marginTop="2dp"
         android:layout_marginEnd="118dp"
         android:layout_marginRight="118dp"
-        android:layout_marginBottom="642dp"
-        android:fontFamily="@font/pacifico"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/montserrat"
         android:text="Health Tips"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#c6a5a3"
@@ -71,15 +86,16 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:padding="10dp"
-                        android:src="@drawable/eye1" />
+                        android:src="@drawable/eye" />
 
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginTop="35dp"
                         android:layout_toRightOf="@+id/eye"
+                        android:fontFamily="@font/montserrat"
                         android:text="Eyes Strain"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="#DFCFCE" />
@@ -113,9 +129,10 @@
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginTop="35dp"
                         android:layout_toRightOf="@+id/strain"
+                        android:fontFamily="@font/montserrat"
                         android:text="Back Strain"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="#DFCFCE" />
@@ -149,9 +166,10 @@
                         android:id="@+id/textView26"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginTop="35dp"
                         android:layout_toRightOf="@+id/wa"
+                        android:fontFamily="@font/montserrat"
                         android:text="Yoga for Eyes"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="#DFCFCE" />
@@ -187,6 +205,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="35dp"
                         android:layout_toRightOf="@+id/water"
                         android:text="Water Consumption"
@@ -199,4 +218,5 @@
         </GridLayout>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

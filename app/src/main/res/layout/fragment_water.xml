@@ -7,13 +7,14 @@
     tools:ignore="MissingDefaultResource"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Health.WaterFragment">
+
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
-        android:layout_marginBottom="675dp"
-        android:fontFamily="@font/pacifico"
+        android:layout_marginBottom="640dp"
+        android:fontFamily="@font/montserrat"
         android:text="Drink Water"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#c6a5a3"
@@ -82,6 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/dd2"
