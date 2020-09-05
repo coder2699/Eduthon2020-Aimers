@@ -20,12 +20,19 @@ class CyberFragment : Fragment() {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_cyber, container, false)
         view.navigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+
+        view.btnReport.setOnClickListener {
+            findNavController().navigate(R.id.action_cyberFragment_to_complaintFragment)
+        }
+        view.btnSol.setOnClickListener {
+            findNavController().navigate(R.id.action_cyberFragment_to_solutionFragment)
+        }
         return view
     }
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.menuForm -> {
-                 return@OnNavigationItemSelectedListener true
+                return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
                 return@OnNavigationItemSelectedListener true

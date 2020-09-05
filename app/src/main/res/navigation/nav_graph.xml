@@ -89,7 +89,24 @@
         android:id="@+id/cyberFragment"
         android:name="com.example.eduthon_aimers.Cyber.CyberFragment"
         android:label="fragment_cyber"
-        tools:layout="@layout/fragment_cyber" />
+        tools:layout="@layout/fragment_cyber" >
+        <action
+            android:id="@+id/action_cyberFragment_to_solutionFragment"
+            app:destination="@id/solutionFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/cyberFragment" />
+        <action
+            android:id="@+id/action_cyberFragment_to_complaintFragment"
+            app:destination="@id/complaintFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/cyberFragment" />
+    </fragment>
     <fragment
         android:id="@+id/complaintFragment"
         android:name="com.example.eduthon_aimers.Cyber.ComplaintFragment"
