@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/artfrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232355"
+    tools:context=".Articles.ArticleFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:background="#232355"
+        app:itemIconTint="#c6a5a3"
+        app:itemTextColor="#c6a5a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_sheet_menu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="610dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Articles"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#c6a5a3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/articleBody"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ah1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:gravity="start"
+                android:text="@string/a_complete_guide_to_microsoft_team"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="start"
+                android:text="2). Tips for Becoming an Online English Teacher"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="3). 10 Best Practices To Be An Effective Online Teacher"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="4). Tech tools for online teaching: Get the one-stop guide for tech tools for teachers"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="5). 8 ways to make lessons fun and engaging in an online classroom"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="6). 7 Tips On How To Prepare For Teaching Online "
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="7). 5 Best Mobile Apps That Help You Teach Online "
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="8). 16 Answers to Your Questions about Teaching Online "
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="9). 5 Strategies To Improve Your Online Teaching"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="10). Equipment Needed for Online Teaching "
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="11). 7 Essential Strategies for New Online Distance Teachers "
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/ah11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:text="12). Teaching online: what hardware and software do you need?"
+                android:textColor="#64B5F6"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
