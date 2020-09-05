@@ -61,7 +61,7 @@ class HealthFragment : Fragment() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
-//                findNavController().navigate(R.id.)
+                findNavController().navigate(R.id.action_healthFragment_to_donateFragment)
                 return@OnNavigationItemSelectedListener true
             }
         }

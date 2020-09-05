@@ -36,7 +36,7 @@ class CyberFragment : Fragment() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
-//                findNavController().navigate(R.id.)
+                findNavController().navigate(R.id.action_cyberFragment_to_donateFragment)
                 return@OnNavigationItemSelectedListener true
             }
         }

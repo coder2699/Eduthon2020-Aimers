@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/dialogNameEt"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/dialogEmailEt"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/abc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/abc"
+        android:hint="Enter Address"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/abc4"
+        android:hint="Enter City"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/abc5"
+        android:hint="Enter State"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/abc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pin Code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/abc3"
+        android:hint="What item(s) you want to donate?"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialogCancelBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/holo_red_light"
+            android:text="Cancel"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/dialogLoginBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Submit"
+            android:textColor="#212121" />
+
+    </LinearLayout>
+
+</LinearLayout>

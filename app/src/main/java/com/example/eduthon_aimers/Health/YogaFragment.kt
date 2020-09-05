@@ -22,6 +22,7 @@ class YogaFragment : Fragment() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
+                findNavController().navigate(R.id.action_yogaFragment_to_donateFragment)
 
                 return@OnNavigationItemSelectedListener true
             }

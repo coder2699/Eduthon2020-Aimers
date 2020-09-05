@@ -1,4 +1,13 @@
 package com.example.eduthon_aimers.Donation
 
-class Donor {
-}
+
+data class Donor(
+    var DonorName:String,
+    var DonorEmailAddress:String,
+    var DonorPhoneNumber:Int,
+    var DonorAddress:String,
+    var DonorCity:String,
+    var DonorState:String,
+    var DonorPinCode:Int,
+    var DonorItem:String
+)

@@ -28,7 +28,7 @@ class ArticleFragment : Fragment() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
-//                findNavController().navigate(R.id.)
+                findNavController().navigate(R.id.action_articleFragment_to_donateFragment)
                 return@OnNavigationItemSelectedListener true
             }
         }

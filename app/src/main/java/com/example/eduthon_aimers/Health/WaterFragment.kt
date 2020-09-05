@@ -22,6 +22,7 @@ class WaterFragment : Fragment() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
+                findNavController().navigate(R.id.action_waterFragment_to_donateFragment)
 
                 return@OnNavigationItemSelectedListener true
             }
