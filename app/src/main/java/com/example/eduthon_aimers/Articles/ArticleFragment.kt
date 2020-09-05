@@ -18,6 +18,81 @@ class ArticleFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_article, container, false)
+        view.ah1.setOnClickListener {
+            //val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            // Toast.makeText(context, "Clicked", Toast.LENGTH_LONG).show()
+            //fragwebView?.loadUrl("https://www.youtube.com/")
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.techrepublic.com/article/zoom-vs-microsoft-teams-google-meet-cisco-webex-and-skype-choosing-the-right-video-conferencing-apps-for-you/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah2.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.gooverseas.com/blog/teaching-english-online" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah3.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://elearningindustry.com/10-best-practices-effective-online-teacher" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah4.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://blog.wiziq.com/tech-tools-for-online-teaching/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah5.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.teachaway.com/blog/increase-engagement-in-online-classroom" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah6.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://elearningindustry.com/7-tips-prepare-for-teaching-online" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah7.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.geteducated.com/elearning-education-blog/5-best-mobile-apps-that-help-you-teach-online/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view.ah8.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.socialsciencespace.com/2020/03/16-answers-to-your-questions-about-teaching-online/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
         view.navigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         return view
     }

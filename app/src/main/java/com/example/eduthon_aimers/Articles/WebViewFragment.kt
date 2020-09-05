@@ -28,7 +28,7 @@ class WebViewFragment : Fragment() {
         view.fragwebView.webViewClient =
             MyWebViewClient()
         if(view.fragwebView == null )
-            Toast.makeText(context, "Clicked", Toast.LENGTH_LONG).show()
+            //Toast.makeText(context, "Clicked", Toast.LENGTH_LONG).show()
         else {
             view.fragwebView.loadUrl(Url)
 //            Toast.makeText(context, Url, Toast.LENGTH_LONG).show()

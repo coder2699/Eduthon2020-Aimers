@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "774816527693",
+    "firebase_url": "https://eduthon-aimers.firebaseio.com",
+    "project_id": "eduthon-aimers",
+    "storage_bucket": "eduthon-aimers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774816527693:android:473aaa40553a7805c17304",
+        "android_client_info": {
+          "package_name": "com.example.eduthon_aimers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774816527693-tl57lh32kibkgnnbksjn1v7gj2n715ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8s8Ohf5Eq_RWj4PoFqqJ0aSN6-mGmRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774816527693-tl57lh32kibkgnnbksjn1v7gj2n715ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
