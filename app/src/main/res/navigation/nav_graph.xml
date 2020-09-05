@@ -56,12 +56,20 @@
         android:id="@+id/articleFragment"
         android:name="com.example.eduthon_aimers.Articles.ArticleFragment"
         android:label="fragment_article"
-        tools:layout="@layout/fragment_article" />
+        tools:layout="@layout/fragment_article" >
+        <action
+            android:id="@+id/action_articleFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/faqsFragment"
         android:name="com.example.eduthon_aimers.Faq.FaqsFragment"
         android:label="fragment_faqs"
-        tools:layout="@layout/fragment_faqs" />
+        tools:layout="@layout/fragment_faqs" >
+        <action
+            android:id="@+id/action_faqsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/healthFragment"
         android:name="com.example.eduthon_aimers.HealthFragment"
@@ -79,12 +87,19 @@
         <action
             android:id="@+id/action_healthFragment_to_waterFragment"
             app:destination="@id/waterFragment" />
+        <action
+            android:id="@+id/action_healthFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/referenceFragment"
         android:name="com.example.eduthon_aimers.ReferenceFragment"
         android:label="fragment_reference"
-        tools:layout="@layout/fragment_reference" />
+        tools:layout="@layout/fragment_reference" >
+        <action
+            android:id="@+id/action_referenceFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cyberFragment"
         android:name="com.example.eduthon_aimers.Cyber.CyberFragment"
@@ -106,35 +121,62 @@
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"
             app:popUpTo="@id/cyberFragment" />
+        <action
+            android:id="@+id/action_cyberFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/complaintFragment"
         android:name="com.example.eduthon_aimers.Cyber.ComplaintFragment"
         android:label="fragment_complaint"
-        tools:layout="@layout/fragment_complaint" />
+        tools:layout="@layout/fragment_complaint" >
+        <action
+            android:id="@+id/action_complaintFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/solutionFragment"
         android:name="com.example.eduthon_aimers.Cyber.SolutionFragment"
         android:label="fragment_solution"
-        tools:layout="@layout/fragment_solution" />
+        tools:layout="@layout/fragment_solution" >
+        <action
+            android:id="@+id/action_solutionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/backFragment"
         android:name="com.example.eduthon_aimers.Health.BackFragment"
         android:label="fragment_back"
-        tools:layout="@layout/fragment_back" />
+        tools:layout="@layout/fragment_back" >
+        <action
+            android:id="@+id/action_backFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/eyesFragment"
         android:name="com.example.eduthon_aimers.Health.EyesFragment"
         android:label="fragment_eyes"
-        tools:layout="@layout/fragment_eyes" />
+        tools:layout="@layout/fragment_eyes" >
+        <action
+            android:id="@+id/action_eyesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/waterFragment"
         android:name="com.example.eduthon_aimers.Health.WaterFragment"
         android:label="fragment_water"
-        tools:layout="@layout/fragment_water" />
+        tools:layout="@layout/fragment_water" >
+        <action
+            android:id="@+id/action_waterFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/yogaFragment"
         android:name="com.example.eduthon_aimers.Health.YogaFragment"
         android:label="fragment_yoga"
-        tools:layout="@layout/fragment_yoga" />
+        tools:layout="@layout/fragment_yoga" >
+        <action
+            android:id="@+id/action_yogaFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>

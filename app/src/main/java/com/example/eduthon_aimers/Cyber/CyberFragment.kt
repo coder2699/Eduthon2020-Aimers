@@ -32,9 +32,11 @@ class CyberFragment : Fragment() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.menuForm -> {
+                findNavController().navigate(R.id.action_cyberFragment_to_homeFragment)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.don -> {
+//                findNavController().navigate(R.id.)
                 return@OnNavigationItemSelectedListener true
             }
         }
