@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232355"
+    tools:ignore="MissingDefaultResource">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:background="#232355"
+        app:itemIconTint="#c6a5a3"
+        app:itemTextColor="#c6a5a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_sheet_menu" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="389dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="1dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="104dp"
+            android:layout_height="109dp"
+            android:src="@drawable/d" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Donate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#CBAB58"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/pacifico"
+            android:text="No act of kindness, no matter how small, is ever wasted."
+            android:textColor="#CBAB58"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/xyz"
+        android:layout_width="379dp"
+        android:layout_height="354dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/montserrat"
+                android:text="Guidelines"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#CBAB58"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="For making a donation :-"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#CBAB58"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="> Only digital gadgets (smart phones, laptops, tablets, etc) are eligible for donating purpose. You cannot donate money."
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="> Please make sure that the device you are donating is 100% working."
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="> Make sure you enter correct details before submitting the form."
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="> Our shipping team will contact you regarding pickup procedure"
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="For seeking a donation :-"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#CBAB58"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="> You are requested to submit your details in order to seek donation"
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:text='> The process is is on "First come, first serve purpose" only.'
+                android:textColor="#c6a5a3" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:text="> Our team will inform you in advance about when your item will reach you."
+                android:textColor="#c6a5a3" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/container2"
+        android:layout_width="359dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="1160dp"
+        android:layout_marginBottom="633dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/make"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/d2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:text="Seek Donation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#CBAB58"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="Make Donation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#CBAB58"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/seek"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/d1" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

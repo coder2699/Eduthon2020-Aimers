@@ -38,7 +38,7 @@
         android:layout_marginRight="220dp"
         android:layout_marginBottom="642dp"
         android:fontFamily="@font/montserrat"
-        android:text="Yoga for Eyes"
+        android:text="Ikshana"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#c6a5a3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,6 +61,23 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ikshana is a Sanskrit word which means sight, care and superintendence but also refers to eye, sight, look, seeing, viewing. "
+                android:textColor="#c6a5a3"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Teaching online for several hours is bad for your eyes. So, doing some yoga can be helpful"
+                android:textColor="#c6a5a3"
+                android:textSize="14sp" />
 
             <ImageView
                 android:id="@+id/imageView16"
