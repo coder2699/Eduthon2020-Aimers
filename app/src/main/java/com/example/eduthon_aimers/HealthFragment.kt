@@ -23,31 +23,18 @@ class HealthFragment : Fragment() {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_health, container, false)
         view.EyesStrainView.setOnClickListener {
+            findNavController().navigate(R.id.action_healthFragment_to_eyesFragment)
 
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.healthContainer, EyesFragment())
-            transaction.addToBackStack(null)
-            transaction.commit()
         }
         view.BackStrainView.setOnClickListener {
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.healthContainer, BackFragment())
-            transaction.addToBackStack(null)
-            transaction.commit()
+
+            findNavController().navigate(R.id.action_healthFragment_to_backFragment)
         }
         view.waterConsumptionView.setOnClickListener {
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.healthContainer, WaterFragment())
-            transaction.addToBackStack(null)
-            transaction.commit()
-
+            findNavController().navigate(R.id.action_healthFragment_to_waterFragment)
         }
         view.yogaView.setOnClickListener {
-
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.healthContainer, YogaFragment())
-            transaction.addToBackStack(null)
-            transaction.commit()
+            findNavController().navigate(R.id.action_homeFragment_to_yogaFragment)
 
         }
 
