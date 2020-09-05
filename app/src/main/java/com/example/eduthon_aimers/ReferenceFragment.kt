@@ -1,5 +1,8 @@
 package com.example.eduthon_aimers
 
+import android.content.Intent
+import android.content.pm.ActivityInfo
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -18,6 +21,36 @@ class ReferenceFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_reference, container, false)
+        view.btnzoom.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=us.zoom.videomeetings"))
+            startActivity(intent)
+        }
+        view.btnsoft.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.microsoft.teams"))
+            startActivity(intent)
+        }
+        view.btnGmeet.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.meetings"))
+            startActivity(intent)
+        }
+        view.btnClass.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.classroom"))
+            startActivity(intent)
+        }
+        view.btnJmeet.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.jio.rilconferences"))
+            startActivity(intent)
+        }
+        view.btnCisco.setOnClickListener{
+            var intent =  Intent (Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.cisco.webex.meetings"))
+            startActivity(intent)
+        }
         view.navigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         return view
     }
@@ -33,5 +66,14 @@ class ReferenceFragment : Fragment() {
             }
         }
         false
+    }
+
+    override fun onResume() {
+        super.onResume()
+        activity?.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+    }
+    override fun onPause() {
+        super.onPause()
+        activity?.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR
     }
 }
