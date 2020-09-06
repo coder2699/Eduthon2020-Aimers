@@ -93,6 +93,42 @@ class ArticleFragment : Fragment() {
             activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
                 ?.commit()
         }
+        view?.ah?.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://elearningindustry.com/5-strategies-improve-your-online-teaching" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view?.ah9?.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.caiteelizabeth.com/equipment-online-teaching/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view?.ah10?.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.3plearning.com/blog/7-essential-online-teaching-strategies-teachers-new-distance-learning/" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
+        view?.ah11?.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("URL","https://www.oxfordtefl.com/blog/teaching-online-what-hardware-and-software-do-you-need" )
+            val mainFragment : WebViewFragment =
+                WebViewFragment()
+            mainFragment.arguments = bundle
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.artfrag, mainFragment)?.addToBackStack(null)
+                ?.commit()
+        }
         view.navigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         return view
     }

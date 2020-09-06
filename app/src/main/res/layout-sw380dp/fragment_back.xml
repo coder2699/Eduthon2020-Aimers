@@ -30,7 +30,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="642dp"
         android:fontFamily="@font/montserrat"
-        android:text="Prevent Back Strain"
+        android:text="Back Strain"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#c6a5a3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,9 +53,8 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
-        android:layout_marginBottom="139dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,29 +64,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView29"
-                android:layout_width="322dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Don't use your laptop on your lap. Simply doing this will reduce the chances of you developing aches and pains significantly."
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#c6a5a3" />
 
             <TextView
                 android:id="@+id/textView30"
-                android:layout_width="320dp"
-                android:layout_height="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:text="Use a Laptop Raiser .This will help to reduce the strain on your neck from looking down too much."
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#c6a5a3" />
 
             <TextView
                 android:id="@+id/textView31"
-                android:layout_width="320dp"
-                android:layout_height="148dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:gravity="start|right"
                 android:text="Sit with good posture - feet firm on the floor, elbows slightly above the desk surface, back supported by back rest, lumbar support of the chair positioned in your lower back and bottom right back against the back of the chair."
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
