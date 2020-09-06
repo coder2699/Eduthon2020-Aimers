@@ -17,6 +17,10 @@ TeacherDeck is a futuristic app for those who build future!!!.
 <p><a href="https://drive.google.com/file/d/1GuOB9FHRT5D3mBcIjezsGKzjuf84g8DI/view?usp=sharing">Power Point Presentation</a></p>
 <p><a href="https://youtu.be/JM__00W4WhQ">See Working of app</a></p>
 
+## How To SetUp 
+
+<p><a href="https://drive.google.com/file/d/1VWDRs6W9f3ZEJekj3uqzFw3IwcAlqSXM/view?usp=sharing">Click Here Download Apk file</a>. After that install the apk file, the app will start installing on your device (minimum requirement of device is Android 5.0). Once the appis installed, click on open the app, your app will open then your are good to go, app is ready for its use.</p>
+
 ## Tech Used
 
 - Android Development
