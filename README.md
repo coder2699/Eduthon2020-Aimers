@@ -1,3 +1,5 @@
+<img src = "app/src/main/res/drawable/logo.png" width="150" height="150">
+
 # TeachersDeck
 
 [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/HAC-2020/Aimers/contributors/)     [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/HAC-2020/Aimers/issues/)      [![ABCD](https://img.shields.io/badge/development-passing-brightgreen)](https://img.shields.io/badge/development-passing-brightgreen) 
@@ -8,8 +10,6 @@
 [![ABCD](https://img.shields.io/badge/License-MIT%20License-orange)](https://img.shields.io/badge/License-MIT%20License-orange) <p></p>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/HAC-2020/Aimers)
 [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
-
-<img src = "app/src/main/res/drawable/logo.png" width="150" height="150">
 
 
  <i>An All in One Android App for Teachers!</i>
